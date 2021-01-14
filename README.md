@@ -14,7 +14,9 @@ It is no secret that Donald Trump wields enormous power through his Tweets. The 
 * https://crime-data-explorer.fr.cloud.gov/api
 
 Dow Jones data was pulled from Yahoo Finance website from their historical data section. The data was downloaded in CSV format. read_csv function was used to read the csv file and convert it into Pandas dataframe.
+
 Major news headlines was extracted from CNN.com website using BeautifulSoup. The extracted headlines and dates list from BeautifulSoup was converted into Pandas dataframe.
+
 Crime data was downloaded using API from Federal Bureau of Investigation agency website. The desired data for analysis was extracted from the JSON file and normalized into a Pandas dataframe.
 
 
@@ -22,17 +24,17 @@ Crime data was downloaded using API from Federal Bureau of Investigation agency 
 
 The first few steps in cleaning up the datasets involved dropping unwanted and redundant data. Further, the following steps were taken to clean up the data for analysis:
 
-Used Pandas functions in Jupyter Notebook to load CSV file.
-Used BeautifulSoup to get the extracted data in desired form.
-Transformed the CSV, JSON files into data frames.
-Converted the web extracted data into data frames.
-Dropped the extra columns which were not relevant to the focus of this study.
-Calculated the change is Dow Jones Index.
-Converted the datatypes of dates from string to datetime format.
-Further cleaned the dates column by extracting only the date portion and removing the timestamp.
-Extracted the sought results from JSON file and converted into a dataframe.
-Rearranged the columns in dataframe for easier analysis.
-Sorted the data in ascending order for easy comparison and analysis.
+* Used Pandas functions in Jupyter Notebook to load CSV file.
+* Used BeautifulSoup to get the extracted data in desired form.
+* Transformed the CSV, JSON files into data frames.
+* Converted the web extracted data into data frames.
+* Dropped the extra columns which were not relevant to the focus of this study.
+* Calculated the change is Dow Jones Index.
+* Converted the datatypes of dates from string to datetime format.
+* Further cleaned the dates column by extracting only the date portion and removing the timestamp.
+* Extracted the sought results from JSON file and converted into a dataframe.
+* Rearranged the columns in dataframe for easier analysis.
+* Sorted the data in ascending order for easy comparison and analysis.
 
 
 ## Load
